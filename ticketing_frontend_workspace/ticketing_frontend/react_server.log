@@ -23,3 +23,338 @@ modules by path ./.ve/ 15.1 KiB
     ./node_modules/css-loader/dist/cjs.js!./.ve/EditorOverlay.css 697 bytes [built] [code generated]
   ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
 webpack 5.99.9 compiled successfully in 1418 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.4 MiB
+  asset bundle.js 1.39 MiB [emitted] (name: main)
+  asset main.4a2dd7a208bd79e4a388.hot-update.js 4.68 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.4a2dd7a208bd79e4a388.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.4 MiB = bundle.js 1.39 MiB main.4a2dd7a208bd79e4a388.hot-update.js 4.68 KiB
+cached modules 1.26 MiB [cached] 41 modules
+runtime modules 27.5 KiB 14 modules
+./node_modules/css-loader/dist/cjs.js!./src/App.css 2.22 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 87 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.4 MiB
+  asset bundle.js 1.39 MiB [emitted] (name: main)
+  asset main.bfbf59e2a94d04517b71.hot-update.js 5.16 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.bfbf59e2a94d04517b71.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.4 MiB = bundle.js 1.39 MiB main.bfbf59e2a94d04517b71.hot-update.js 5.16 KiB
+cached modules 1.26 MiB [cached] 41 modules
+runtime modules 27.5 KiB 14 modules
+./src/App.js 1.86 KiB [built] [code generated]
+
+ERROR in ./src/App.js 5:0-43
+Module not found: Error: Can't resolve './components/Sidebar' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 6:0-45
+Module not found: Error: Can't resolve './components/AuthPage' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 7:0-57
+Module not found: Error: Can't resolve './components/TicketMainArea' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 8:0-51
+Module not found: Error: Can't resolve './components/TicketModal' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 4 errors in 73 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.4 MiB
+  asset bundle.js 1.4 MiB [emitted] (name: main)
+  asset main.746c7a64b5ca0ac7116d.hot-update.js 8.92 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.746c7a64b5ca0ac7116d.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.4 MiB = bundle.js 1.4 MiB main.746c7a64b5ca0ac7116d.hot-update.js 8.92 KiB
+cached modules 1.26 MiB [cached] 41 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 3.95 KiB
+  ./src/App.js 1.86 KiB [code generated]
+  ./src/components/Sidebar.js 2.09 KiB [built] [code generated]
+
+ERROR in ./src/App.js 6:0-45
+Module not found: Error: Can't resolve './components/AuthPage' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 7:0-57
+Module not found: Error: Can't resolve './components/TicketMainArea' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 8:0-51
+Module not found: Error: Can't resolve './components/TicketModal' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/Sidebar.js 2:0-23
+Module not found: Error: Can't resolve './Sidebar.css' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components'
+ @ ./src/App.js 5:0-43 42:33-40
+ @ ./src/index.js 5:0-24 11:32-35
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 4 errors in 54 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.42 MiB
+  asset bundle.js 1.41 MiB [emitted] (name: main)
+  asset main.1f72f072398d4e4cbe93.hot-update.js 15.7 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.1f72f072398d4e4cbe93.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.42 MiB = bundle.js 1.41 MiB main.1f72f072398d4e4cbe93.hot-update.js 15.7 KiB
+cached modules 1.26 MiB [cached] 42 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 6.14 KiB
+  ./src/components/Sidebar.js 2.09 KiB [code generated]
+  ./src/components/Sidebar.css 2.26 KiB [built] [code generated]
+  ./node_modules/css-loader/dist/cjs.js!./src/components/Sidebar.css 1.79 KiB [built] [code generated]
+
+ERROR in ./src/App.js 6:0-45
+Module not found: Error: Can't resolve './components/AuthPage' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 7:0-57
+Module not found: Error: Can't resolve './components/TicketMainArea' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 8:0-51
+Module not found: Error: Can't resolve './components/TicketModal' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+3 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 3 errors in 43 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.42 MiB
+  asset bundle.js 1.41 MiB [emitted] (name: main)
+  asset main.bb8cca391a5ecf12a4f9.hot-update.js 10.4 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.bb8cca391a5ecf12a4f9.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.42 MiB = bundle.js 1.41 MiB main.bb8cca391a5ecf12a4f9.hot-update.js 10.4 KiB
+cached modules 1.27 MiB [cached] 44 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 5.24 KiB
+  ./src/App.js 1.86 KiB [code generated]
+  ./src/components/AuthPage.js 3.38 KiB [built] [code generated]
+
+ERROR in ./src/App.js 7:0-57
+Module not found: Error: Can't resolve './components/TicketMainArea' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 8:0-51
+Module not found: Error: Can't resolve './components/TicketModal' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/AuthPage.js 2:0-24
+Module not found: Error: Can't resolve './AuthPage.css' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components'
+ @ ./src/App.js 6:0-45 33:34-42
+ @ ./src/index.js 5:0-24 11:32-35
+
+3 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 3 errors in 54 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.44 MiB
+  asset bundle.js 1.42 MiB [emitted] (name: main)
+  asset main.df4329149ddf13ef5dbd.hot-update.js 17.3 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.df4329149ddf13ef5dbd.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.44 MiB = bundle.js 1.42 MiB main.df4329149ddf13ef5dbd.hot-update.js 17.3 KiB
+cached modules 1.27 MiB [cached] 45 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 7.41 KiB
+  ./src/components/AuthPage.js 3.38 KiB [code generated]
+  ./src/components/AuthPage.css 2.26 KiB [built] [code generated]
+  ./node_modules/css-loader/dist/cjs.js!./src/components/AuthPage.css 1.76 KiB [built] [code generated]
+
+ERROR in ./src/App.js 7:0-57
+Module not found: Error: Can't resolve './components/TicketMainArea' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+resolve './components/TicketMainArea' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+  using description file: /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/package.json (relative path: ./src/components/TicketMainArea)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketMainArea doesn't exist
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketMainArea.js doesn't exist
+      .jsx
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketMainArea.jsx doesn't exist
+      as directory
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketMainArea doesn't exist
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 8:0-51
+Module not found: Error: Can't resolve './components/TicketModal' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+resolve './components/TicketModal' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+  using description file: /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/package.json (relative path: ./src/components/TicketModal)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketModal doesn't exist
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketModal.js doesn't exist
+      .jsx
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketModal.jsx doesn't exist
+      as directory
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketModal doesn't exist
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 2 errors in 49 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.44 MiB
+  asset bundle.js 1.43 MiB [emitted] (name: main)
+  asset main.39b87368c9cca41af764.hot-update.js 10.7 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.39b87368c9cca41af764.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.44 MiB = bundle.js 1.43 MiB main.39b87368c9cca41af764.hot-update.js 10.7 KiB
+cached modules 1.28 MiB [cached] 47 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 5.49 KiB
+  ./src/App.js 1.86 KiB [code generated]
+  ./src/components/TicketMainArea.js 3.62 KiB [built] [code generated]
+
+ERROR in ./src/App.js 8:0-51
+Module not found: Error: Can't resolve './components/TicketModal' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+resolve './components/TicketModal' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+  using description file: /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/package.json (relative path: ./src/components/TicketModal)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketModal doesn't exist
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketModal.js doesn't exist
+      .jsx
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketModal.jsx doesn't exist
+      as directory
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketModal doesn't exist
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/TicketMainArea.js 2:0-30
+Module not found: Error: Can't resolve './TicketMainArea.css' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components'
+resolve './TicketMainArea.css' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components'
+  using description file: /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/package.json (relative path: ./src/components)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/package.json (relative path: ./src/components/TicketMainArea.css)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketMainArea.css doesn't exist
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketMainArea.css.js doesn't exist
+      .jsx
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketMainArea.css.jsx doesn't exist
+      as directory
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketMainArea.css doesn't exist
+ @ ./src/App.js 7:0-57 51:34-48
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 2 errors in 52 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.46 MiB
+  asset bundle.js 1.44 MiB [emitted] (name: main)
+  asset main.152326f89095b5370672.hot-update.js 18.1 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.152326f89095b5370672.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.46 MiB = bundle.js 1.44 MiB main.152326f89095b5370672.hot-update.js 18.1 KiB
+cached modules 1.28 MiB [cached] 48 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 7.96 KiB
+  ./src/components/TicketMainArea.js 3.62 KiB [code generated]
+  ./src/components/TicketMainArea.css 2.28 KiB [built] [code generated]
+  ./node_modules/css-loader/dist/cjs.js!./src/components/TicketMainArea.css 2.05 KiB [built] [code generated]
+
+ERROR in ./src/App.js 8:0-51
+Module not found: Error: Can't resolve './components/TicketModal' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+resolve './components/TicketModal' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src'
+  using description file: /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/package.json (relative path: ./src/components/TicketModal)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketModal doesn't exist
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketModal.js doesn't exist
+      .jsx
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketModal.jsx doesn't exist
+      as directory
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketModal doesn't exist
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 1 error in 38 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.45 MiB
+  asset bundle.js 1.44 MiB [emitted] (name: main)
+  asset main.a4c5ab656267e64fe7c0.hot-update.js 8.58 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.a4c5ab656267e64fe7c0.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.45 MiB = bundle.js 1.44 MiB main.a4c5ab656267e64fe7c0.hot-update.js 8.58 KiB
+cached modules 1.28 MiB [cached] 50 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 3.93 KiB
+  ./src/App.js 1.86 KiB [code generated]
+  ./src/components/TicketModal.js 2.07 KiB [built] [code generated]
+
+ERROR in ./src/components/TicketModal.js 2:0-27
+Module not found: Error: Can't resolve './TicketModal.css' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components'
+resolve './TicketModal.css' in '/home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components'
+  using description file: /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/package.json (relative path: ./src/components)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/package.json (relative path: ./src/components/TicketModal.css)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketModal.css doesn't exist
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketModal.css.js doesn't exist
+      .jsx
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketModal.css.jsx doesn't exist
+      as directory
+        /home/kavia/workspace/code-generation/ticketflow-28518-6796a488/ticketing_frontend_workspace/ticketing_frontend/src/components/TicketModal.css doesn't exist
+ @ ./src/App.js 8:0-51 58:39-50
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 1 error in 50 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.47 MiB
+  asset bundle.js 1.45 MiB [emitted] (name: main)
+  asset main.19130cf4bbd2c9e2030f.hot-update.js 15.5 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.19130cf4bbd2c9e2030f.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.47 MiB = bundle.js 1.45 MiB main.19130cf4bbd2c9e2030f.hot-update.js 15.5 KiB
+cached modules 1.28 MiB [cached] 51 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 5.98 KiB
+  ./src/components/TicketModal.js 2.07 KiB [code generated]
+  ./src/components/TicketModal.css 2.27 KiB [built] [code generated]
+  ./node_modules/css-loader/dist/cjs.js!./src/components/TicketModal.css 1.64 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 40 ms
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.46 MiB
+  asset bundle.js 1.45 MiB [emitted] (name: main)
+  asset main.ffeb3cbc8ded507152e2.hot-update.js 3.49 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.ffeb3cbc8ded507152e2.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.46 MiB = bundle.js 1.45 MiB main.ffeb3cbc8ded507152e2.hot-update.js 3.49 KiB
+cached modules 1.29 MiB [cached] 53 modules
+runtime modules 27.5 KiB 14 modules
+./src/index.js 719 bytes [built] [code generated]
+webpack 5.99.9 compiled successfully in 35 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.46 MiB
+  asset bundle.js 1.45 MiB [emitted] (name: main)
+  asset main.6d6eb63c2b470afd128a.hot-update.js 3.59 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.6d6eb63c2b470afd128a.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.46 MiB = bundle.js 1.45 MiB main.6d6eb63c2b470afd128a.hot-update.js 3.59 KiB
+cached modules 1.29 MiB [cached] 53 modules
+runtime modules 27.5 KiB 14 modules
+./node_modules/css-loader/dist/cjs.js!./src/index.css 1.18 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 30 ms

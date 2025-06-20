@@ -1,0 +1,67 @@
+.ticket-modal-backdrop {
+  position: fixed;
+  z-index: 900;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(44,42,63,0.13);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ticket-modal {
+  background: var(--foreground);
+  border-radius: 9px;
+  box-shadow: 0 4px 28px 0 rgba(74,110,160,0.13);
+  min-width: 340px;
+  max-width: 97vw;
+  padding: 34px 30px 24px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket-modal h2 {
+  color: var(--primary);
+  margin-bottom: 18px;
+}
+
+.modal-input {
+  border: 1px solid var(--border-color);
+  background: #f5f8fa;
+  border-radius: 5px;
+  font-size: 1em;
+  padding: 0.75em 1em;
+  margin-bottom: 14px;
+  width: 100%;
+  outline: none;
+  color: var(--text-color);
+}
+.modal-input:focus {
+  border: 1.5px solid var(--primary);
+}
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 7px;
+}
+
+.modal-save {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.modal-save:hover {
+  background: #1155b6;
+}
+.modal-cancel {
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-weight: 500;
+  cursor: pointer;
+}
+.modal-cancel:hover {
+  text-decoration: underline;
+}

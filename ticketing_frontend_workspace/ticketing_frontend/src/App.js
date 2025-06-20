@@ -1,35 +1,48 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="app">
-      <nav className="navbar">
-        <div className="container">
-          <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
-            <div className="logo">
-              <span className="logo-symbol">*</span> KAVIA AI
-            </div>
-            <button className="btn">Template Button</button>
-          </div>
-        </div>
-      </nav>
+// Modular imports
+import Sidebar from './components/Sidebar';
+import AuthPage from './components/AuthPage';
+import TicketMainArea from './components/TicketMainArea';
+import TicketModal from './components/TicketModal';
 
-      <main>
-        <div className="container">
-          <div className="hero">
-            <div className="subtitle">AI Workflow Manager Template</div>
-            
-            <h1 className="title">ticketing_frontend</h1>
-            
-            <div className="description">
-              Start building your application.
-            </div>
-            
-            <button className="btn btn-large">Button</button>
-          </div>
-        </div>
+// Placeholder: Auth state logic
+const useSimpleAuth = () => {
+  // "user" is null until logged in
+  const [user, setUser] = useState(null);
+  return { user, setUser };
+};
+
+function App() {
+  // Simulate basic auth state
+  const { user, setUser } = useSimpleAuth();
+  // Control modal open/close
+  const [modalOpen, setModalOpen] = useState(false);
+  const [editingTicket, setEditingTicket] = useState(null);
+
+  if (!user) {
+    return (
+      <div className="auth-bg">
+        <AuthPage setUser={setUser} />
+      </div>
+    );
+  }
+
+  return (
+    <div className="app-layout">
+      <Sidebar onCreateTicket={() => { setModalOpen(true); setEditingTicket(null); }}/>
+      <main className="main-section">
+        <TicketMainArea
+          onEditTicket={(ticket) => { setEditingTicket(ticket); setModalOpen(true); }}
+        />
       </main>
+      {modalOpen && (
+        <TicketModal
+          onClose={() => { setModalOpen(false); setEditingTicket(null); }}
+          ticket={editingTicket}
+        />
+      )}
     </div>
   );
 }
